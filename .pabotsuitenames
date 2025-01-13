@@ -1,0 +1,6 @@
+datasources:37469e5013fbe1c3d6d2be83d63cc0e6f2b0cb18
+commandlineoptions:fd9dbcacd6d0f2d992a7693f31ff4e249d4f5d9f
+suitesfrom:no-suites-from-option
+file:56fc0f92eff9d2af12cea75b91c0c56eaa4ecc79
+--suite Tests.Test Role configuration
+--suite Tests.TestRoleconfiguration

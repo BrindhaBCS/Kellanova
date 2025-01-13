@@ -1,0 +1,20 @@
+==============================================================================
+Tests :: Testing functionality through Robot Framework                        
+==============================================================================
+Tests.Test Role configuration                                                 
+==============================================================================
+Start TestCase                                                        | PASS |
+------------------------------------------------------------------------------
+Submit Anugal username and password                                   | PASS |
+------------------------------------------------------------------------------
+Role_configuartion                                                    | PASS |
+------------------------------------------------------------------------------
+Finish TestCase                                                       | PASS |
+------------------------------------------------------------------------------
+Tests.Test Role configuration                                         | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Tests :: Testing functionality through Robot Framework                | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Anugal_Testing\Anugal\Output\fbd383a0-cf9d-4cc6-98d6-79df0f69b082\pabot_results\0\Output.xml

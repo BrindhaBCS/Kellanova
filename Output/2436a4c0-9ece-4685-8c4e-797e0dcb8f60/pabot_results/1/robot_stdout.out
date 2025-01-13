@@ -1,0 +1,61 @@
+==============================================================================
+Tests :: Testing functionality through Robot Framework                        
+==============================================================================
+Tests.Test Role configuration                                                 
+==============================================================================
+Start TestCase                                                        | PASS |
+------------------------------------------------------------------------------
+Submit Anugal username and password                                   | PASS |
+------------------------------------------------------------------------------
+Role_configuartion                                                    | PASS |
+------------------------------------------------------------------------------
+Finish TestCase                                                       | PASS |
+------------------------------------------------------------------------------
+Tests.Test Role configuration                                         | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Tests.TestRoleconfiguration                                                   
+==============================================================================
+Start TestCase                                                        | PASS |
+------------------------------------------------------------------------------
+Submit Anugal username and password                                   | PASS |
+------------------------------------------------------------------------------
+Role_configuartion                                                    | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary jss128 css-c3k44h" tabindex="-1" type="button" disabled="">...</button> is not clickable at point (1785, 853). Other element would receive the click: <span sx="[object Object]" class="">...</span>
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FB2A3E42+31618]
+	(No symbol) [0x00007FF6FB21B0A9]
+	(No symbol) [0x00007FF6FB0D888A]
+	(No symbol) [0x00007FF6FB13022E]
+	(No symbol) [0x00007FF6FB12DBE2]
+	(No symbol) [0x00007FF6FB12B07B]
+	(No symbol) [0x00007FF6FB12A246]
+	(No symbol) [0x00007FF6FB11C281]
+	(No symbol) [0x00007FF6FB14D10A]
+	(No symbol) [0x00007FF6FB11BBA6]
+	(No symbol) [0x00007FF6FB14D320]
+	(No symbol) [0x00007FF6FB16CA80]
+	(No symbol) [0x00007FF6FB14CEB3]
+	(No symbol) [0x00007FF6FB11A46B]
+	(No symbol) [0x00007FF6FB11B001]
+	GetHandleVerifier [0x00007FF6FB5AA01D+3202397]
+	GetHandleVerifier [0x00007FF6FB5F6A3D+3516285]
+	GetHandleVerifier [0x00007FF6FB5EC4B0+3473904]
+	GetHandleVerifier [0x00007FF6FB355D46+760454]
+	(No symbol) [0x00007FF6FB226B4F]
+	(No symbol) [0x00007FF6FB221CE4]
+	(No symbol) [0x00007FF6FB221E72]
+	(No symbol) [0x00007FF6FB21121F]
+	BaseThreadInitThunk [0x00007FF8D52F4DE0+16]
+	RtlUserThreadStart [0x00007FF8D5BDEDAB+43]
+------------------------------------------------------------------------------
+Finish TestCase                                                       | PASS |
+------------------------------------------------------------------------------
+Tests.TestRoleconfiguration                                           | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+Tests :: Testing functionality through Robot Framework                | FAIL |
+8 tests, 7 passed, 1 failed
+==============================================================================
+Output:  C:\Anugal_Testing\Anugal\Output\2436a4c0-9ece-4685-8c4e-797e0dcb8f60\pabot_results\1\Output.xml
