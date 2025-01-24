@@ -4,7 +4,7 @@ Library    RequestsLibrary
 Library    string
 Library    Collections
 Library    OperatingSystem
-Library    kellanova.py
+Library    Kellanova_Library.py
 *** Variables ***
 ${URL}    ${angvar('clubcracker_url')}
 ${Browser}    ${angvar('clubcracker_browser')}

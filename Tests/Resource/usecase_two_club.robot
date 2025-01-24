@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    RequestsLibrary
-Library    kellanova.py
+Library    Kellanova_Library.py
 Library    string
 Library    Collections
 Library    OperatingSystem

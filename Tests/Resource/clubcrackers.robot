@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Library    kellanova.py
+Library    Kellanova_Library.py
 
 *** Variables ***
 
