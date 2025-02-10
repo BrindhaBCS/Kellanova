@@ -9,6 +9,8 @@ ${Browser}    ${angvar('clubcracker_browser')}
 Imagecomparison
     Open Browser    url=${URL}    browser=${Browser}    options=add_argument("--ignore-certificate-errors")
     Maximize Browser Window
+    Wait Until Keyword Succeeds    1 minute    2s    Click Element    locator=id:onetrust-accept-btn-handler
+    ${Get_Cookies}    Get Cookies
     Click Element    locator=xpath://a[text()="Our Food"]
     Sleep    1
     ${product_count}=    Get Element Count    xpath://div[@class='products-list-product']
@@ -19,15 +21,15 @@ Imagecomparison
                 Scroll Element Into View    locator=xpath:(//div[@class='product-list-title bvValues'])[${index}]
                 Sleep    2
                 ${CLEANED_TEXT}    Get Text    locator=xpath:(//div[@class='product-list-title bvValues'])[${index}]
-                Capture Element Screenshot    locator=xpath:(//div[@class='product-primary-image'])[${index}]    filename=C:\\kellaova\\catalogimage\\${index}_catalogimage_${CLEANED_TEXT}.png
+                Capture Element Screenshot    locator=xpath:(//div[@class='product-primary-image'])[${index}]    filename=C:\\Kellanova\\Kellanova_Current_image\\${index}_catalogimage_${CLEANED_TEXT}.png
                 Sleep    2
                 Click Element    locator=xpath:(//div[@class='product-list-title bvValues'])[${index}]
                 Wait Until Element Is Visible    locator=xpath://div[@class='product-slider-aspect-ratio']//img[1]    timeout=30s
-                Capture Element Screenshot    locator=xpath://div[@class='product-slider-aspect-ratio']//img[1]    filename=C:\\kellaova\\productimage\\${index}_productimage_${CLEANED_TEXT}.png
+                Capture Element Screenshot    locator=xpath://div[@class='product-slider-aspect-ratio']//img[1]    filename=C:\\Kellanova\\Kellanova_Current_image\\${index}_productimage_${CLEANED_TEXT}.png
                 Sleep    5
                 Click Element    locator=xpath:(//a[@aria-label='click to see where to buy'])[1]
                 Wait Until Element Is Visible    locator=xpath://div[@class='ps-product-image inline']//img[1]    timeout=30s
-                Capture Element Screenshot    locator=xpath://div[@class='ps-product-image inline']//img[1]    filename=C:\\kellaova\\wheretobuy\\${index}_wheretobuy_${CLEANED_TEXT}.png
+                Capture Element Screenshot    locator=xpath://div[@class='ps-product-image inline']//img[1]    filename=C:\\Kellanova\\Kellanova_Current_image\\${index}_wheretobuy_${CLEANED_TEXT}.png
                 Sleep    1
                 Go Back
                 Sleep    1
